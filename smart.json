@@ -3,7 +3,7 @@
     "description": "Masked Input plugin for jQuery",
     "homepage": "https://github.com/austinrivas/meteor-maskedInput",
     "author": "Austin Rivas  (https://github.com/austinrivas)",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "git": "https://github.com/austinrivas/meteor-maskedInput.git",
     "packages" : {}
 }
