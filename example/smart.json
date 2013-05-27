@@ -1,0 +1,13 @@
+{
+  "meteor": {
+    "git": "https://github.com/meteor/meteor.git",
+    "branch": "master"
+  },
+  "packages": {
+      "proxino" : {},
+      "githubReadme" : {},
+      "maskedInput" : {
+          "path" : "packages/maskedInput/"
+      }
+  }
+}
