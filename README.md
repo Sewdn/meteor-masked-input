@@ -23,7 +23,7 @@ See makedInput Official Documentation : http://digitalbush.com/projects/masked-i
 
 ## Example
 
-### <a href="http://meteor-maskedInput-example.meteor.com">meteor-maskeInput live example</a>
+### <a href="http://meteor-maskedInput-example.meteor.com">meteor-maskedInput live example</a>
 
 ### To run example locally
 ``` sh
@@ -33,3 +33,5 @@ $ mrt
 ```
 
 ### TODOS
+* create template helpers for mask
+* thorough testing
