@@ -1,6 +1,3 @@
-<a href="https://github.com/austinrivas/meteor-maskedInput">meteor-maskedInput</a>
-====
-
 Masked Input plugin for jQuery
 
 Requires Meteorite : https://github.com/oortcloud/meteorite
