@@ -22,10 +22,10 @@ Package.on_use(function (api) {
 
     // Add templates.html and client.js files ONLY on
     // the client
-    api.add_files(["/lib/jquery.maskedInput.js","/lib/maskedInput.js"], "client");
+    api.add_files(["lib/jquery.maskedInput.js","lib/maskedInput.js"], "client");
 });
 
 Package.on_test(function (api) {
     api.use(['maskedInput', 'tinytest', 'test-helpers'], ['client', 'server']);
-    api.add_files('/tests/_tests.js', ['client', 'server']);
+    api.add_files('tests/_tests.js', ['client', 'server']);
 });
