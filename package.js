@@ -8,7 +8,9 @@
 
 // Give our package a description
 Package.describe({
-    summary: "Masked Input plugin for jQuery"
+  summary: "Masked Input plugin for jQuery",
+  version: "1.0.6",
+  git: "https://github.com/Sewdn/meteor-maskedInput.git"
 });
 
 // Tell Meteor what to do with our package at bundle time
