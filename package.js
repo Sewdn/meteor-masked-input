@@ -19,6 +19,7 @@ Package.on_use(function (api) {
     // The api.use method allows us to depend on other
     // packages that ship with meteor or are in our project's
     // package directory
+    api.versionsFrom("METEOR@0.9.0");
     api.use("jquery", "client");
 
 
