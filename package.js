@@ -28,6 +28,6 @@ Package.on_use(function (api) {
 });
 
 Package.on_test(function (api) {
-    api.use(['maskedInput', 'tinytest', 'test-helpers'], ['client', 'server']);
+    api.use(['masked-input', 'tinytest', 'test-helpers'], ['client', 'server']);
     api.add_files('tests/_tests.js', ['client', 'server']);
 });

@@ -1,3 +1,3 @@
-Tinytest.add('maskedInput - boilerplate test', function (test) {
+Tinytest.add('masked-input - boilerplate test', function (test) {
     test.equal(1, 1, 'Always true');
 });
