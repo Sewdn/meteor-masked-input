@@ -1,16 +1,9 @@
-/**
- * Package: maskedInput
- * User: austinrivas
- * Date: 5/26/13
- * Time: 5:31 PM
- */
-
-
-// Give our package a description
 Package.describe({
   summary: "Masked Input plugin for jQuery",
-  version: "1.0.6",
-  git: "https://github.com/Sewdn/meteor-maskedInput.git"
+  version: "1.4.0_1",
+  upstreamVersion: "1.4.0",
+  git: "https://github.com/Sewdn/meteor-masked-input.git",
+  name: "sewdn:masked-input"
 });
 
 // Tell Meteor what to do with our package at bundle time
@@ -19,7 +12,7 @@ Package.on_use(function (api) {
     // The api.use method allows us to depend on other
     // packages that ship with meteor or are in our project's
     // package directory
-    api.versionsFrom("METEOR@0.9.0");
+    api.versionsFrom("METEOR@1.0.0");
     api.use("jquery", "client");
 
 
